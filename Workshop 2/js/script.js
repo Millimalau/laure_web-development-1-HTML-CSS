@@ -29,19 +29,62 @@ const visitorName = prompt("Mikä on nimesi?");
 
 console.log("Terve " + visitorName + "! Tervetuloa javascrptin pariin!");
 
-// Ask the user for their favorite animal
+// Ask the user for their favorite animal (Laitoin kommentiksi, koska alemmassa tehtävässä kysytään samaa asiaa uudestaan, joten se ei ole tarpeen tässä vaiheessa.)
 
-const visitorFavoriteAnimal = prompt("Mikä on lempi eläimesi?");
+//const visitorFavoriteAnimal = prompt("Mikä on lempi eläimesi?");
 
-// Create a sentence using both answers
+// Create a sentence using both answers (Laitoin kommentiksi, koska alemmassa tehtävässä kysytään samaa asiaa uudestaan, joten se ei ole tarpeen tässä vaiheessa.)
 
-console.log("Terve " + visitorName + "! Sinun lempi eläimesi on " + visitorFavoriteAnimal + ".");
+//console.log("Terve " + visitorName + "! Sinun lempi eläimesi on " + visitorFavoriteAnimal + ".");
+
+
 
 // console.log("Hello, " + visitorName + "! Your favorite animal is " + visitorFavoriteAnimal + ".");
 
 // ⭐⭐ BONUS Ask the user for their favorite animal.If their favorite animal is "Blue Elephant", print: Great choice! That's my favorite animal too!
 // ⭐⭐ BONUS Otherwise, print: Nice! Your favorite animal is [animal]. Can you figure out how to do this using if / else?
 
+const visitorFavoriteAnimal = prompt("What is your favorite animal?");
 
+if (visitorFavoriteAnimal === "Kissa") {
+    console.log("Hyvä valinta! Se on myös minun lempieläimeni!");
+} else {
+    console.log("Kiva, sinun lempi eläimesi on " + visitorFavoriteAnimal + ".");
+}   
 
 // const visitorFavoriteAnimal = prompt("What is your favorite animal?");
+
+
+// Ask the user for their age using prompt().
+
+const visitorAge = prompt("How old are you?");
+
+// Create an if / else statement:
+
+//If the user is 18 or older, display: "You are an adult."
+//Otherwise display: "You are under 18."
+//Print the result to the Console.
+
+if (visitorAge >= 18) {
+    console.log("SInä olet aikuinen.");
+} else {
+    console.log("Sinä olet alle 18.");
+}
+
+//Create a function called greetUser.
+
+//The function should receive a name as a parameter and print a greeting.
+
+//Example:
+
+//function greetUser(name) { console.log("Hello " + name + "!"); }
+
+//greetUser("John");
+
+//Modify the function and test it with different names.
+
+function greetUser(name) {
+    console.log("Moi " + name + "!");
+}
+
+greetUser("Milli");
