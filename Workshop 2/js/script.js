@@ -44,7 +44,7 @@ console.log("Terve " + visitorName + "! Tervetuloa javascrptin pariin!");
 // ⭐⭐ BONUS Ask the user for their favorite animal.If their favorite animal is "Blue Elephant", print: Great choice! That's my favorite animal too!
 // ⭐⭐ BONUS Otherwise, print: Nice! Your favorite animal is [animal]. Can you figure out how to do this using if / else?
 
-const visitorFavoriteAnimal = prompt("What is your favorite animal?");
+const visitorFavoriteAnimal = prompt("Mikä on Sun lempi eläin?");
 
 if (visitorFavoriteAnimal === "Kissa") {
     console.log("Hyvä valinta! Se on myös minun lempieläimeni!");
@@ -75,16 +75,20 @@ if (visitorAge >= 18) {
 
 //The function should receive a name as a parameter and print a greeting.
 
-//Example:
-
-//function greetUser(name) { console.log("Hello " + name + "!"); }
-
-//greetUser("John");
-
-//Modify the function and test it with different names.
-
 function greetUser(name) {
     console.log("Moi " + name + "!");
 }
 
 greetUser("Milli");
+
+//Add a heading and a button to your HTML page.
+
+//When the button is clicked, use JavaScript to display a message.
+
+//You can experiment with:
+
+//alert("JavaScript works!");
+
+
+alert("JavaScript toimii!");
+
