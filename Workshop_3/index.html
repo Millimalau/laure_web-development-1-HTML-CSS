@@ -22,8 +22,8 @@
     <p>Harjoituksessa 2 opit <code>addEventListener()</code>:n. Se on parempi tapa kuin kirjoittaminen suoraan HTML:ään.</p>
 
     <p>
-        <button>Paina minua</button>
-        <button>Näytä eläintaulukko</button>
+        <button id="firstButton">Paina minua</button>
+        <button id="secondButton">Näytä eläintaulukko</button>
     </p>
 
     <div id="tableContainer"></div>
@@ -61,7 +61,7 @@
     <hr>
 
     <!-- Harjoitus 2 -->
-    <h2>Harjoitus 2: Kuuntelijat ja DOM</h2>
+    <h2 id="heading2">Harjoitus 2: Kuuntelijat ja DOM </h2>
     <ul>
         <li>Lisää <code>mouseover</code>-tapahtuma otsikolle “Harjoitus 2”. Tulosta teksti <em>“Stepped over me with a mouse!”</em> konsoliin.</li>
         <li>Lisää <code>click</code>-tapahtuma otsikolle “Harjoitus 1” <code>addEventListener()</code>:llä. Muuta otsikon väri punaiseksi ja teksti muotoon “Bye bye mouse!”.</li>
@@ -87,6 +87,7 @@
             </ul>
         </li>
     </ul>
+
 
     <h3>Pika-palautelomake</h3>
 
@@ -175,6 +176,12 @@
         Voit avata Google Mapsin tietystä paikasta lisäämällä koordinaatit URL-osoitteeseen:
     </p>
     <code>https://www.google.com/maps?q=60.1699,24.9384</code>
+
+    <p>
+        <button id="kivistoBtn">Näytä Kivistö Google Mapsissa</button>
+        <button id="sijaintiBtn">Näytä sijaintini Google Mapsissa</button>
+    </p>
+    <p id="locationStatus"></p>
 
     <hr>
 
